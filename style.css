@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+header.main-header {
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header.main-header h1 {
+    margin: 0;
+    width: calc(33.333%);
+    text-align: left;
+    font-size: 24px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.photo-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    width: calc(33.333%);
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-header, .photo-body, .photo-footer {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.photo-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+.photo-title {
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.photo-date {
+    font-size: 14px;
+    color: #666;
+    white-space: nowrap;
+}
+
+.photo-body img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.photo-footer {
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #555;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    box-sizing: border-box;
+}
